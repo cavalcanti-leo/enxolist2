@@ -21,8 +21,8 @@ public class Product {
     private String urlLink;
     private String image;
     private String userID;
-    private Boolean wasBought;
+    private Boolean wasBought = false;
     private Integer category;
-    private BigDecimal price;
+    private BigDecimal price = BigDecimal.ZERO;
 
 }
